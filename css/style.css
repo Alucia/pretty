@@ -1,0 +1,97 @@
+/*
+	css de pretty 3.0
+*/
+@media (max-width: 762px) {
+	footer,body,header, nav{font-size: 9px;} 
+}
+@media (max-width:  360px) {
+	h1{font-size: 17px !important;} 
+	.about{font-size: 12px;}
+}
+@media (max-width:  980px) {
+	.hero-image{padding-top: 15%;}
+}
+@media (max-width:  320px) {
+	img{width: 40%;
+		margin: 5%;}
+}
+body,
+html {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+.hero-image{
+	height: 50%;
+	background: url("../img/background.jpg") no-repeat;
+	background-size: cover;
+	padding-top: 5%;
+}
+.hero-image h1,
+.hero-image h6{
+	color: white;
+}
+.hero-image img{
+	width: 5%;
+}
+header{
+	width: 100%;
+	background-color: white;
+}
+nav{
+	padding: 3% 0% 2%;
+}
+nav a{
+	text-decoration: none;
+	color: black;
+	margin-right: 2%;
+	font-weight: bold;
+	display: inline-block;
+}
+nav a:hover{
+	text-decoration: none;
+}
+.parrafo{
+	text-align: justify;
+}
+.about{
+	width: 100%;
+	background-image: url("../img/tile1.png");
+	padding: 3% 0%;
+}
+
+.font{
+	font-weight: bold;
+	font-size: 1.9em;
+	padding-bottom: 2%;
+	color: purple;
+}
+
+.img-profile{
+	width: 100%;
+	height: 75%;
+	border: 1px solid grey !important; 
+}
+
+.img-profile img{
+	width: 100%;	
+}
+
+.favourite{
+	padding: 3% 0%;
+}
+
+.img-favourite img{
+	width: 100%;
+}
+
+footer{
+	width: 100%;
+	background-image: url("../img/tile2.png");
+	padding: 3% 0%;
+}
+
+.img-footer img	{
+	width: 10%;
+}
